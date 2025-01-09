@@ -1,13 +1,13 @@
 import java.util.Scanner;
-// Объявляем тип сканнер
-// Ввод данных
-// тип имяПеременной = new тип(параметры)
-// тип другаяПеременная = имяПеременной.метод
-// Класс Scanner
-// Scanner sc = new Scanner(System.in);
-// String value = sc.nextLine();
-// System.out.println(value);
-
+/* Объявляем тип сканнер
+ Ввод данных
+ тип имяПеременной = new тип(параметры)
+ тип другаяПеременная = имяПеременной.метод
+ Класс Scanner
+ Scanner sc = new Scanner(System.in);
+ String value = sc.nextLine();
+ System.out.println(value);
+*/
 public class MyScannerExample {
 
     public static void main(String[] args) {

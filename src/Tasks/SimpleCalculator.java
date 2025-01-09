@@ -1,0 +1,35 @@
+package Tasks;
+
+import java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // сканируем данные с консоль
+        System.out.println("Enter the first number: ");
+        int a = sc.nextInt(); // ждем, пока юзер введет число
+        System.out.println("Enter the second number: ");
+        int b = sc.nextInt();
+        System.out.println("Choose operation +, -, *, /: ");
+        char op = sc.next().charAt(0); // сканируем только первый символ
+        if (op == '+') {
+            System.out.println("Sum of numbers " + a + " and " + b + " is equal to... ");
+            System.out.println("Result: " + (a + b));
+        }
+        else if (op == '-') {
+            System.out.println("The difference between the numbers " + a + " and " + b + " is equal to... ");
+            System.out.println("Result: " + (a - b));
+        }
+        else if (op == '*') {
+            System.out.println("The product of the numbers " + a + " and " + b + " is equal to... ");
+            System.out.println("Result: " + (a * b));
+        }
+        else if (op == '/') {
+            System.out.println("The quotient of numbers " + a + " and " + b + " is equal to... ");
+            System.out.println("Result: " + (a / b));
+        }
+        else {
+            System.out.println("Invalid operation");
+        }
+
+    }
+}

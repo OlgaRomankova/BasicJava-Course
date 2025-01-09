@@ -1,7 +1,8 @@
-//    Key words
-//    This
-//    Final
-//    Static
+/*  Key words
+    This
+    Final
+    Static
+*/
 
 public class KeyWords {
 
