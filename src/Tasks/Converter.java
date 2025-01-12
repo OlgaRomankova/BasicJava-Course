@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Converter {
     public static void main(String[] args) {
+        System.out.println("Hello!");
         System.out.println("Enter 1: $");
         System.out.println("Enter 2: €");
         System.out.println("Enter 3: ₽");
