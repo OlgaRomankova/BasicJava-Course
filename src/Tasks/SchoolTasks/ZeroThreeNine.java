@@ -1,3 +1,5 @@
+package Tasks.SchoolTasks;
+
 import java.util.Scanner;
 
 public class ZeroThreeNine {
