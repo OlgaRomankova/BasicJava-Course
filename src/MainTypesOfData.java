@@ -12,5 +12,6 @@ public class MainTypesOfData {
 
         System.out.println(a);
         System.out.println(i);
+        System.out.println(d);
     }
 }
